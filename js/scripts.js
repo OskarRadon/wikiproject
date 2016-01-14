@@ -7,7 +7,7 @@ $(document).ready(function() {
     exampleArray.push(arrayInput);
     console.log(exampleArray);
 
-    $("#arrayOutput").append(exampleArray);
+    $("#arrayOutput").append("<code>" + exampleArray + "</code><br>");
     event.preventDefault();
   });
 });
