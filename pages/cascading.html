@@ -46,8 +46,21 @@
           </ul>
         </div>
         <div class="col-sm-9">
-          <h1></h1>
-          <p></p>
+          <h1>Cascading</h1>
+          <p>
+            The CSS specification describes a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities (or weights) are calculated and assigned to rules, so that the results are predictable.
+          </p>
+          <pre><code>
+            body {
+              styles go here
+            }
+            body h1 {
+              this styles all h1 elements in the body
+            }
+            body h1 a {
+              this styles all anchor elements that are also h1 elements
+            }
+          </code></pre>
         </div>
       </div>
     </div>
