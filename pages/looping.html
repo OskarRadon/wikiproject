@@ -46,8 +46,24 @@
           </ul>
         </div>
         <div class="col-sm-9">
-          <h1></h1>
-          <p></p>
+          <h1>Looping</h1>
+          <p>Loops can execute a block of code a number of times.</p>
+          <h3>Examples</h3>
+          <p>Here are two ways to loop in javascript:</p>
+          <pre><code>
+            var languages = ['HTML', 'CSS', 'JavaScript'];
+
+            languages.forEach(function(language) {
+              alert('I love ' + language + '!');
+            });
+          </code></pre>
+          <p>This uses the <code>forEach</code> method to loop through the elements of an array.</p>
+          <pre><code>
+            for (var index = 1; index <= 3; index += 1) {
+              alert(index);
+            }
+          </code></pre>
+          <p>This uses <code>for</code> and a counter to loop.</p>
         </div>
       </div>
     </div>
